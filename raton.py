@@ -1,7 +1,6 @@
 from dispositivo_entrada import DisposistivoEntrada
 
 class Raton(DisposistivoEntrada):
-
     contado_ratones = 0
 
     def __init__(self, marca, tipo_entrada):
